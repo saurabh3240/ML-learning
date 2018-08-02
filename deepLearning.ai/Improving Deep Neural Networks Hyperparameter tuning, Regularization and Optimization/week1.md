@@ -132,9 +132,9 @@ when lambda is high most of the weights values are close to zero thus only few h
 
 #Setting up your Optimization problem
 
-### Normalizing input
+##Normalizing input
 
-![](14.PNG)
+![ ](14.PNG)
 
 - mean shifted the data $\mu$
 - scaled by variance $\sigma^2$
@@ -147,4 +147,57 @@ when lambda is high most of the weights values are close to zero thus only few h
 
 - in unnormalized data gradient descent may  oscillate back and forth to find its way to minimum.
 
-  
+
+
+
+## Vanishing/ Exploding Gradient
+
+- if the weights are bigger than 1 or identity matrix  or smaller than 1  a very deep NN can suffer from 
+  -  Vanishing Gradient ( when weights <1)
+  - Exploding Gradient (when weights >1)
+- this makes training difficult
+  - in case of Vanishing Gradient training will be very slow
+
+![](16.PNG)
+
+## Weights Initialization of Deep Network
+
+- A partial solution to Vanishing and Exploding Gradient is careful selection of weights
+- set $Var(w_i) = \frac{1}{n} $and mean zero
+- n is number of nodes in that
+- in case of ReLU use $\frac{2}{n^L}$ 
+
+![](17.PNG)
+
+## Numerical approximation of gradient
+
+- to check implementation of backprop is correct
+- use 2 sided difference rather than 1 sided difference (this is less accurate) .
+  - 2 sided will be 2 time slower but more accurate.
+
+![](18.PNG)
+
+
+
+## Gradient Checking
+
+- Take all parameter and reshape into a big vector $\theta$
+- And also take all gradient and reshape into a big vector $d\theta$
+- **Grad check**
+  - manual calculate $d\theta_{approx}$
+  - check Euclidean distance
+    - take $\epsilon  = 1e-7$
+  - if the difference is large there must be a bug
+
+![](19.PNG)
+
+## Gradient Checking Implementation
+
+- Don't use in training -only to debug (turn off in training)
+- if value of db is far of from $d\theta$ then may be problem with db backpropagation
+
+- can use keep_prob =1 .0  in case of dropout assuming dropout implementation is correct.
+- run grad_check after some number of iteration.
+
+![](20.PNG)
+

@@ -21,6 +21,9 @@
 
 ## NN with ReLU
 
+- Relu introduce  non-linearity
+- number H  is # hidden Relu units can be considered as hyperparameter.
+
 ![](5.PNG)
 
 ## Back-Prop
@@ -29,3 +32,4 @@
 
 
 
+- each block in backprop needs 2 times the memory in forward prop and twice the compute

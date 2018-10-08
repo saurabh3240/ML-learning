@@ -5,4 +5,8 @@ data_batch_3
 data_batch_4
 data_batch_5
 test_batch
+*.pickle
+notMNIST*
 *.db
+*.zip
+Deep_reinforcement_learning_Course-master*

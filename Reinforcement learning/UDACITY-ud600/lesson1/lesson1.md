@@ -98,7 +98,7 @@
     - utility is long term feedback. 
 - Optimal policy at a state can be found out by recursive equation as:
   - $\pi^*(s) = argmax_{s}  \sum_{s'} T(s,a,s') U(s')$
-  - here author means $$U(s)  =  U^{\pi^*}(s)$$  :always following optimal policy.
+  - here author means $$U(s)  =  U^{\pi^*}(s)​$$  :always following optimal policy.
 - True utility can be defined as:
   - $$U(s) = R(s) + \gamma\  max _{a} \sum_{s'} T(s,a,s') U(s') $$
   - This is known as Bellman equation.

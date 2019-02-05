@@ -46,3 +46,9 @@ http://danshiebler.com/2017-04-16-deep-taylor-lrp/
 https://arxiv.org/abs/1604.00825
 
 http://www.heatmapping.org/
+
+**medical Data Dictionaries**
+
+WHODD
+
+MeDRA

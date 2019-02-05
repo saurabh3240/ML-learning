@@ -13,7 +13,9 @@ NLP DL
 GLoVe
 Skip Gram
 
+hierarchical soft max classifier for speed up THomas mikolov paper
 
+negative sample can be used.
 
 TO read Negative sampling NCE
 text label classification
@@ -125,10 +127,10 @@ feature engineering
 ​	links
 ​	http://blog.kaggle.com/2014/08/01/learning-from-the-best/
 ​	
-	videos
-	https://www.youtube.com/watch?v=we53uiOlnLA  Hbase
-	https://www.youtube.com/watch?v=leTyvBPhYzw (done)
-	https://www.youtube.com/watch?v=bL4b1sGnILU
+​	videos
+​	https://www.youtube.com/watch?v=we53uiOlnLA  Hbase
+​	https://www.youtube.com/watch?v=leTyvBPhYzw (done)
+​	https://www.youtube.com/watch?v=bL4b1sGnILU
 https://www.youtube.com/watch?v=0BGAD23_mhE
 https://www.youtube.com/watch?v=V0u6bxQOUJ8
 https://www.youtube.com/watch?v=5DWZoXI5z-E

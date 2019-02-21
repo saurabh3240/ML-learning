@@ -10,7 +10,7 @@ Applied Deep Learning is highly iterative process
 - activation functions
 - **Application Domain:** NLP, Vision, Speech, Structural Data (ads, search, security, logistics)
 
-###Division
+### Division
 
 - training-set = 70%
 - validation/development -set = 15%

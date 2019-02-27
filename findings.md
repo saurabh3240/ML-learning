@@ -52,3 +52,32 @@ http://www.heatmapping.org/
 WHODD
 
 MeDRA
+
+
+
+
+
+**deep survival model**
+
+**risk backpropogation**
+
+**cox elastic net**
+
+**Cox Proportional hazard **
+**Data Assimilation**
+**matrix trifactorization'**
+
+
+
+Kmeans Clustering
+
+Hierarchical and 2-step clustering
+
+decide k in clustering
+
+- Elbow method
+- Silhouette index.
+
+Similarity measure
+
+ **Gower Distance**
